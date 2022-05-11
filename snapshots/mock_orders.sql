@@ -4,7 +4,6 @@
 
 {{
     config(
-      target_database='analytics',
       target_schema=new_schema,
       unique_key='order_id',
 
