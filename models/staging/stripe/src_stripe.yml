@@ -2,5 +2,7 @@ version: 2
 
 sources:
     - name: stripe
+      schema: default
       tables:
         - name: payment
+          identifier: stripe_payments
